@@ -10,11 +10,11 @@ char N[0];
 do {
 
   printf("Enter Number : ");
-  scanf("%d",y);
+  scanf("%d",&y);
 
   printf("Do you Want to Continue : ");
   scanf("%s",&x);
-  z = z + y
+  z = z + y;
 
 
 }
@@ -23,7 +23,7 @@ while (x==n || x==N);
 printf("%d",z);
 
 
-
+return 0;
 
 
 }
